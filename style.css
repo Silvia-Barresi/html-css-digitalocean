@@ -3,3 +3,113 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* debug */
+.border{
+  border: solid 2px #000;
+  height: 100px;
+}
+/* debug */
+
+header, section{
+  text-align: center;
+}
+
+/* nav */
+#logo{
+  width: 50%;
+}
+
+.padesa{
+  margin: 5.5% 2% 0;
+  color:#0c2454;
+}
+ .padnav{
+  margin: 1.5% 0 0 3%;
+  color:#0c2454;
+}
+
+.signup{
+  background-color: #f0f0f0;
+  border:solid 1px #579aff;
+  color:#579aff;
+  padding:1.5%;
+  border-radius:5%;
+}
+
+/* it'sjumbotime */
+
+.bluecontainer{
+  margin-top: 50px;
+  background-image: url(img/blu.jpg);
+  color: #fff;
+  text-align: left;
+}
+
+h1{
+  padding-top: 3%;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+p{
+  padding-bottom:6%;
+  opacity:0.7;
+  font-size: 18px;
+}
+
+.divaparte{
+  margin: 5% 0 0 6%;
+  background-color: #fff;
+  height:330px;
+  width:430px;
+  border-radius: 3%;
+}
+
+
+/* logus */
+
+.loghi{
+  background-color: #f0f0f0;
+}
+
+h4{
+  color:#2F4F4F;
+  margin: 5% 0 3% 0;
+}
+
+.logus{
+  width:15%;
+  margin-bottom: 2%;
+}
+
+#view{
+  font-size: 20px;
+  color:#036cfe;
+}
+
+
+/* nest */
+
+.nest{
+  height:400px;
+}
+
+.grey{
+  background-color: #f0f0f0;
+  height:400px;
+}
+
+.lisection{
+  background-color: #00008B;
+}
+
+.bluebutt{
+  background-color: #00008B;
+  height:300px;
+}
+
+footer{
+  background-color: #191970;
+  height: 400px;
+}
