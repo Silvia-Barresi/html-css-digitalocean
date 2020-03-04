@@ -52,14 +52,14 @@ h1{
   font-weight: 600;
 }
 
-p{
+.whitep{
   padding-bottom:6%;
   opacity:0.7;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .divaparte{
-  margin: 5% 0 0 6%;
+  margin: 5% 0 5% 6%;
   background-color: #fff;
   height:330px;
   width:430px;
@@ -91,25 +91,111 @@ h4{
 
 /* nest */
 
-.nest{
-  height:400px;
+h2{
+  margin-top: 5%;
+  font-weight: bold;
 }
 
-.grey{
-  background-color: #f0f0f0;
-  height:400px;
+#nestp{
+  color:#000;
+  font-size: 16px;
+  margin-bottom: 5%;
 }
+
+.clear-xs, .clear-md, .clear-lg  {
+  clear: both;
+  display: none;
+}
+
+ul{
+  list-style-type: none;
+  margin:0 10% 0 40%;
+  border-left: 1px solid grey;
+}
+.linest{
+  padding: 2% 0 15% 0;
+  font-size: 18px;
+}
+
+.cloud{
+  text-align: left;
+  margin:0 0 5% 15%;
+}
+
+i{
+  color:#579aff;
+}
+
+h3{
+  top:0;
+  font-size:20px;
+  font-weight: bold;
+}
+
+
+/* grey section */
+
+.grey{
+  background-color: #f3f5f9;
+}
+
+#imggrey{
+  margin:5% 2% 2% 2%;
+}
+
+/* .carousel{
+  margin-top: 4%;
+  color:#579aff;
+} */
+
+/* 3 paragrafi */
+.par{
+  text-align: left;
+  margin-bottom:4%;
+}
+
+#space{
+  margin-bottom: 4%;
+}
+
+/* blue table */
 
 .lisection{
   background-color: #00008B;
 }
 
+/* bluebutton */
 .bluebutt{
   background-color: #00008B;
-  height:300px;
 }
+
+.bluebutt>div>div>h1{
+  color:#fff;
+  margin-bottom: 4%;
+}
+
+.bluebutt>div>div>input{
+  padding:1%;
+  color: #00008B;
+  font-weight: 600;
+  border-radius: 6%;
+  margin-bottom: 4%;
+}
+
+
+/* footer */
 
 footer{
   background-color: #191970;
   height: 400px;
+}
+
+
+
+
+@media screen and (min-width:993px){
+
+  .clear-lg  {
+    display: block;
+  }
 }
