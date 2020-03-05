@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-/* debug */
-.border{
-  border: solid 2px #000;
-  height: 100px;
-}
-/* debug */
 
 header, section{
   text-align: center;
@@ -44,6 +38,7 @@ header, section{
   background-image: url(img/blu.jpg);
   color: #fff;
   text-align: left;
+  padding-bottom: 2%;
 }
 
 h1{
@@ -64,6 +59,13 @@ h1{
   height:330px;
   width:430px;
   border-radius: 3%;
+  color:#000;
+  text-align: center;
+}
+
+div.form>input, div.buttongoogle>input{
+  width: 90%;
+  margin:1% 0 1% 0;
 }
 
 
@@ -71,6 +73,7 @@ h1{
 
 .loghi{
   background-color: #f0f0f0;
+  padding-bottom: 2%;
 }
 
 h4{
@@ -90,6 +93,10 @@ h4{
 
 
 /* nest */
+
+.nestsection{
+  padding-bottom:4%;
+}
 
 h2{
   margin-top: 5%;
@@ -153,9 +160,11 @@ h3{
 } */
 
 /* 3 paragrafi */
-.par{
+.yourbusiness{
+  padding-bottom: 4%;
+}
+.paragrafo{
   text-align: left;
-  margin-bottom:4%;
 }
 
 #space{
@@ -188,19 +197,20 @@ h3{
 /* bluebutton */
 .bluebutt{
   background-color: #00008B;
+  padding-bottom: 4%;
 }
 
-.bluebutt>div>div>h1{
+.bluebutt>div>div>div>h1{
   color:#fff;
-  margin-bottom: 4%;
+  margin-bottom: 6%;
 }
 
-.bluebutt>div>div>input{
+.bluebutt>div>div>div>input{
   padding:1%;
   color: #00008B;
   font-weight: 600;
   border-radius: 6%;
-  margin-bottom: 4%;
+  border:none;
 }
 
 
@@ -209,7 +219,7 @@ h3{
 footer{
   background-color: #191970;
   color: #fff;
-  padding-top: 4%;
+  padding: 4% 0 4% 0;
 }
 
 @media screen and (max-width:767px){
@@ -218,9 +228,6 @@ footer{
     margin-top: 2%;
   }
 
-  .divaparte{
-    margin: 2% 3% 5% 3%;
-  }
 
   .ulnest{
     margin:0 70% 2% 0;
@@ -239,6 +246,9 @@ footer{
     margin:0 80% 4% 0;
   }
 
+  .cloud{
+    margin-left: 0;
+  }
 
 }
 
