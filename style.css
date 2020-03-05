@@ -14,6 +14,10 @@ header, section{
   width: 50%;
 }
 
+i{
+  color:#0c2454;
+}
+
 .padesa{
   margin: 5.5% 2% 0;
   color:#0c2454;
@@ -27,7 +31,7 @@ header, section{
   background-color: #f0f0f0;
   border:solid 1px #579aff;
   color:#579aff;
-  padding:1.5%;
+  padding:1%;
   border-radius:5%;
 }
 
@@ -59,8 +63,19 @@ h1{
   height:330px;
   width:430px;
   border-radius: 3%;
-  color:#000;
   text-align: center;
+  padding:2% 1% 0 1%;
+}
+
+.divaparte>h2{
+  color:#000;
+  margin: 4% 2% 0 2%;
+  font-size: 23px;
+}
+
+.divaparte>h3{
+  color:#579aff;
+  font-size: 23px;
 }
 
 div.form>input, div.buttongoogle>input{
@@ -68,11 +83,40 @@ div.form>input, div.buttongoogle>input{
   margin:1% 0 1% 0;
 }
 
+.email{
+  border:1px solid #f0f0f0;
+  color: #606060;
+  padding: 1% 0 1% 1%;
+  border-radius: 1%;
+}
+
+input.sign{
+  background-image: url(img/goo.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 4px 5px;
+  color: #000;
+  padding:1%;
+  font-weight: bold;
+  border-radius: 3%;
+}
+
+input.create{
+  background-color: #579aff;
+  border: none;
+  padding: 1%;
+  border-radius: 3%;
+}
+
+.divaparte>h4{
+  font-size: 10px;
+  font-weight: bold;
+}
 
 /* logus */
 
 .loghi{
-  background-color: #f0f0f0;
+  background-color: #f3f5f9;
   padding-bottom: 2%;
 }
 
@@ -133,9 +177,6 @@ ul{
   margin:0 0 5% 15%;
 }
 
-i{
-  color:#579aff;
-}
 
 h3{
   top:0;
@@ -148,16 +189,16 @@ h3{
 
 .grey{
   background-color: #f3f5f9;
+  padding-bottom: 4%;
 }
 
 .imggrey{
   margin:5% 2% 2% 2%;
 }
 
-/* .carousel{
-  margin-top: 4%;
+.fa-circle, .far-circle{
   color:#579aff;
-} */
+}
 
 /* 3 paragrafi */
 .yourbusiness{
@@ -169,6 +210,10 @@ h3{
 
 #space{
   margin-bottom: 4%;
+}
+
+div.paragrafo>p{
+  padding-bottom:4%;
 }
 
 /* blue table */
@@ -196,7 +241,7 @@ h3{
 
 /* bluebutton */
 .bluebutt{
-  background-color: #00008B;
+  background-color: #002ea9;
   padding-bottom: 4%;
 }
 
@@ -217,9 +262,20 @@ h3{
 /* footer */
 
 footer{
-  background-color: #191970;
+  background-color: #031c4e;
   color: #fff;
   padding: 4% 0 4% 0;
+}
+
+.footerul>li a, h6{
+  color:#fff;
+  opacity:0.6;
+}
+
+.footeri{
+  color:#fff;
+  opacity:0.6;
+  padding-right: 2%;
 }
 
 @media screen and (max-width:767px){
