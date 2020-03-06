@@ -15,9 +15,6 @@ a:hover{
 }
 
 /* nav */
-#logo{
-  width: 50%;
-}
 
 i{
   color:#0c2454;
@@ -43,6 +40,12 @@ i{
 .signup:hover{
   background-color: #0069ff;
   color:#fff;
+}
+
+i.fa-bars{
+  width:50%;
+  margin-top: 15%;
+  color:#0069ff;
 }
 
 /* it'sjumbotime */
@@ -245,21 +248,22 @@ div.paragrafo>p{
 
 .ulcities{
   text-align: left;
-  padding-bottom: 8%;
+  padding:4% 0 8% 0;
 }
 
 .licities{
-  border-bottom: solid 1px #fff;
-  padding: 2% 0 0 0;
+  border-bottom: 1px solid #fff;
+  margin-top: 2%;
 }
 
 .margin{
   margin-left: 85%;
+  margin-bottom: 5%;
 }
 
 .opacity{
   opacity: 0.7;
-  margin: 0 35% 0 10%;
+  margin-left: 10%;
 }
 
 /* bluebutton */
@@ -314,8 +318,9 @@ footer{
 
 @media screen and (max-width:767px){
 
-  #logo{
-    margin-top: 2%;
+  .logo{
+    width:60%;
+    margin-top: 4%;
   }
 
   .divaparte{
@@ -343,12 +348,21 @@ footer{
     width:70%;
   }
 
+  .margin{
+    margin-left: 80%;
+  }
+
 
 
 }
 
 @media screen and (min-width:768px) and (max-width:991px){
 
+  .logo{
+    width:50%;
+    margin: 4% 40% 0 0;
+
+  }
   .divaparte{
     width:90%;
   }
@@ -366,15 +380,13 @@ footer{
   }
 
 
-
 }
 
 
 @media screen and (min-width:992px) and (max-width:1199){
-  #logo{
-    width:20%;
+  .logo{
+    margin-right: 40%;
   }
-
 
 }
 
@@ -382,6 +394,11 @@ footer{
 
   .clear-lg  {
     display: block;
+  }
+
+  .logo{
+    width: 50%;
+    margin-top: 5.5%;
   }
 
   .down{
