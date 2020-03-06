@@ -9,6 +9,11 @@ header, section{
   text-align: center;
 }
 
+a:hover{
+  text-decoration: none;
+  color:#0069ff;
+}
+
 /* nav */
 #logo{
   width: 50%;
@@ -29,10 +34,15 @@ i{
 
 .signup{
   background-color: #f0f0f0;
-  border:solid 1px #579aff;
-  color:#579aff;
+  border:solid 1px #0069ff;
+  color:#0069ff;
   padding:1%;
   border-radius:5%;
+}
+
+.signup:hover{
+  background-color: #0069ff;
+  color:#fff;
 }
 
 /* it'sjumbotime */
@@ -42,7 +52,7 @@ i{
   background-image: url(img/blu.jpg);
   color: #fff;
   text-align: left;
-  padding-bottom: 2%;
+  padding-bottom: 4%;
 }
 
 h1{
@@ -57,14 +67,15 @@ h1{
   font-size: 16px;
 }
 
+/* quadrato bianco form google */
+
 .divaparte{
   margin: 5% 0 5% 6%;
   background-color: #fff;
-  height:330px;
-  width:430px;
+  width:100%;
   border-radius: 3%;
   text-align: center;
-  padding:2% 1% 0 1%;
+  padding:2% 1% 2% 1%;
 }
 
 .divaparte>h2{
@@ -81,6 +92,14 @@ h1{
 div.form>input, div.buttongoogle>input{
   width: 90%;
   margin:1% 0 1% 0;
+}
+
+input.create:hover{
+  background-color: #0069ff;
+}
+
+input.sign:hover{
+  color:#0069ff;
 }
 
 .email{
@@ -197,7 +216,7 @@ h3{
 }
 
 .fa-circle, .far-circle{
-  color:#579aff;
+  color:#0069ff;
 }
 
 /* 3 paragrafi */
@@ -231,7 +250,11 @@ div.paragrafo>p{
 
 .licities{
   border-bottom: solid 1px #fff;
-  padding: 2% 0 2% 0;
+  padding: 2% 0 0 0;
+}
+
+.margin{
+  margin-left: 85%;
 }
 
 .opacity{
@@ -247,12 +270,12 @@ div.paragrafo>p{
 
 .bluebutt>div>div>div>h1{
   color:#fff;
-  margin-bottom: 6%;
+  margin-bottom: 3%;
 }
 
 .bluebutt>div>div>div>input{
   padding:1%;
-  color: #00008B;
+  color: #0069ff;
   font-weight: 600;
   border-radius: 6%;
   border:none;
@@ -272,11 +295,22 @@ footer{
   opacity:0.6;
 }
 
+.footerul>li a:hover{
+  opacity:1;
+}
+
+#justwhite{
+  opacity:1;
+}
+
 .footeri{
   color:#fff;
   opacity:0.6;
   padding-right: 2%;
 }
+
+
+/* mquery */
 
 @media screen and (max-width:767px){
 
@@ -284,27 +318,49 @@ footer{
     margin-top: 2%;
   }
 
-
-  .ulnest{
-    margin:0 70% 2% 0;
+  .divaparte{
+    width:90%;
   }
 
-  .imggrey{
-    width:70%;
-
-  }
-
-}
-
-@media screen and (min-width:768px) and (max-width:991px){
-
   .ulnest{
-    margin:0 80% 4% 0;
+    margin:0 90% 2% 0;
   }
 
   .cloud{
     margin-left: 0;
   }
+
+  .paragrafo{
+    padding-bottom: 4%;
+  }
+
+  .imggrey{
+    width:70%;
+  }
+
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+
+  .divaparte{
+    width:90%;
+  }
+
+  .ulnest{
+    margin:0 87% 4% 0;
+  }
+
+  .cloud{
+    margin-left: 0;
+  }
+
+  .paragrafo{
+    padding-bottom: 4%;
+  }
+
+
 
 }
 
@@ -314,11 +370,16 @@ footer{
     width:20%;
   }
 
+
 }
 
 @media screen and (min-width:1200px){
 
   .clear-lg  {
     display: block;
+  }
+
+  .down{
+    padding-bottom: 6%;
   }
 }
