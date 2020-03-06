@@ -303,6 +303,10 @@ footer{
   opacity:1;
 }
 
+.footerul>li{
+  line-height: 2;
+}
+
 #justwhite{
   opacity:1;
 }
@@ -319,8 +323,12 @@ footer{
 @media screen and (max-width:767px){
 
   .logo{
-    width:60%;
+    width:100%;
     margin-top: 4%;
+  }
+
+  i.fa-bars{
+    padding-top: 15%;
   }
 
   .divaparte{
@@ -384,9 +392,6 @@ footer{
 
 
 @media screen and (min-width:992px) and (max-width:1199){
-  .logo{
-    margin-right: 40%;
-  }
 
 }
 
